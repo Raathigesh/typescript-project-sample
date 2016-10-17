@@ -17,6 +17,7 @@ let root = commandpost
     .version(packageJson.version, "-v, --version")
     .option("--word <word>", "hi! <word>")
     .action((opts, args) => {
+        debugger;
         process.stdout.write(lib.hi(opts.word[0]) + "\n");
         process.exit(0);
     });
