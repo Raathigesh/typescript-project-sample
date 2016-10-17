@@ -8,6 +8,8 @@ import * as commandpost from "commandpost";
 
 interface RootOpts {
     word: string[];
+
+        
 }
 
 let root = commandpost
