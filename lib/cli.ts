@@ -5,7 +5,7 @@ import * as lib from "./index";
 import * as fs from "fs";
 let packageJson = JSON.parse(fs.readFileSync(__dirname + "/../package.json", "utf8"));
 import * as commandpost from "commandpost";
-
+var data: any;
 interface RootOpts {
     word: string[];
 
